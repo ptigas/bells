@@ -72,7 +72,6 @@ while True:
 
         toggle_led(True)
         files = sorted(glob.glob('/media/usb0/*.mp3'))
-        import pdb; pdb.set_trace()        
         button = read_buttons()
         if button >= 0:
                 key = button
